@@ -1,0 +1,39 @@
+{
+  "name": "button-row",
+  "title": "Button Row",
+  "version": "1.0.0",
+  "description": "WordPress Editor block which creates a row of buttons.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "author": {
+    "name": "Steven A Zahm",
+    "email": "",
+    "url": "https://connections-pro.com/"
+  },
+  "license": "GPL-2.0+",
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "classnames": "^2.2.6",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.5.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "@wordpress/babel-preset-default": "^3.0.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "cross-env": "^5.2.0"
+  }
+}
