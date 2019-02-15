@@ -19,7 +19,7 @@ const {
 	      RangeControl,
 	      // SelectControl,
 	      // TextControl,
-	      // ToggleControl
+	      ToggleControl
       } = wp.components;
 const {
 	      // Component,
@@ -107,6 +107,10 @@ registerBlockType(
 					}
 				],
 			},
+			isFixed:   {
+				type:    'boolean',
+				default: false
+			},
 			number:    {
 				type:    'integer',
 				default: 2,
@@ -120,6 +124,7 @@ registerBlockType(
 
 			const {
 				      buttons,
+				      isFixed,
 				      number,
 				      rowHeight,
 			      } = attributes;
@@ -151,6 +156,13 @@ registerBlockType(
 							title={__( 'Row Options', 'successtools/button-bar' )}
 							initialOpen={true}
 						>
+
+							<ToggleControl
+								label={__( 'Affix button bar?', 'connections' )}
+								help={__( 'Whether or not the button bar position if fixed within the containing parent.', 'connections' )}
+								checked={!!isFixed}
+								onChange={() => setAttributes( { isFixed: !isFixed } )}
+							/>
 
 							<RangeControl
 								label={__( 'Row height', 'successtools/button-bar' )}
@@ -210,14 +222,26 @@ registerBlockType(
 		},
 		save:       ( props ) => {
 
-			const { attributes: { buttons, rowHeight } } = props;
+			const { attributes: { buttons, isFixed, rowHeight } } = props;
+
+			let styles = { height: rowHeight + 'px' };
+
+			if ( isFixed ) {
+
+				styles = {
+					...styles,
+					position: 'sticky',
+					top: 0,
+					width: '100%',
+				}
+			}
 
 			let renderedButtons = renderButtons( buttons );
 
 			return (
 				<div
 					className={ classnames( 'success-tools-button-row' ) }
-					style={{ height: rowHeight + 'px' }}
+					style={styles}
 				>
 					{renderedButtons}
 
