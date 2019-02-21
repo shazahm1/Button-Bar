@@ -20,14 +20,16 @@ module.exports = {
 		jquery: 'jQuery',
 		react: 'React',
 		'react-dom': 'ReactDOM',
-		'wp.i18n': '@wordpress/i18n',
-		'wp.blocks': '@wordpress/blocks',
-		'wp.compose': '@wordpress/compose',
-		'wp.data': '@wordpress/data',
-		'wp.date': '@wordpress/date',
-		'wp.editor': '@wordpress/editor',
-		'wp.element': '@wordpress/element',
-		'wp.utils': '@wordpress/utils',
+		// 'wp.i18n': '@wordpress/i18n',
+		// 'wp.blocks': {
+		// 	window: [ 'wp', 'blocks' ],
+		// },
+		// 'wp.compose': '@wordpress/compose',
+		// 'wp.data': '@wordpress/data',
+		// 'wp.date': '@wordpress/date',
+		// 'wp.editor': '@wordpress/editor',
+		// 'wp.element': '@wordpress/element',
+		// 'wp.utils': '@wordpress/utils',
 	},
 
 	// entry is the source script.
@@ -39,6 +41,8 @@ module.exports = {
 	output: {
 		path: path.resolve( __dirname, './dist/' ),
 		filename: '[name].js',
+		// library: ['wp', '[name]'],
+		// libraryTarget: 'window',
 	},
 	devtool: 'source-map', // Generate the source map files.
 	module: {
