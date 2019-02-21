@@ -91,7 +91,8 @@ final class Button_Bar {
 			'success-tool/button-row',
 			"{$url}dist/index.js",
 			$dependencies,
-			self::VERSION . '-' . filemtime( "{$path}dist/index.js" )
+			self::VERSION . '-' . filemtime( "{$path}dist/index.js" ),
+			TRUE
 		);
 
 	}
