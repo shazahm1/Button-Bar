@@ -5,8 +5,9 @@
   "description": "WordPress Editor block which creates a row of buttons.",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --watch",
-    "build": "cross-env NODE_ENV=production webpack"
+    "dev": "cross-env webpack",
+    "build": "cross-env NODE_ENV=production webpack",
+    "watch": "cross-env webpack --watch"
   },
   "author": {
     "name": "Steven A Zahm",
@@ -15,9 +16,14 @@
   },
   "license": "GPL-2.0+",
   "devDependencies": {
+    "@wordpress/babel-preset-default": "^3.0.2",
     "autoprefixer": "^9.4.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "classnames": "^2.2.6",
     "clean-webpack-plugin": "^1.0.1",
+    "cross-env": "^5.2.0",
     "css-loader": "^2.1.0",
     "file-loader": "^3.0.1",
     "mini-css-extract-plugin": "^0.5.0",
@@ -29,11 +35,5 @@
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
   },
-  "dependencies": {
-    "@wordpress/babel-preset-default": "^3.0.2",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.5",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "cross-env": "^5.2.0"
-  }
+  "dependencies": {}
 }
