@@ -90,20 +90,68 @@ export class ButtonPanel extends Component {
 					label={__( 'Icons', 'successtools/button-bar' )}
 					options={[
 						{
+							label: __( 'Add', 'successtools/button-bar' ),
+							value: 'add',
+						},
+						{
+							label: __( 'Academics', 'successtools/button-bar' ),
+							value: 'academics',
+						},
+						{
+							label: __( 'Athletics', 'successtools/button-bar' ),
+							value: 'athletics',
+						},
+						{
 							label: __( 'Buttons', 'successtools/button-bar' ),
 							value: 'buttons',
 						},
 						{
-							label: __( 'Back Arrow', 'successtools/button-bar' ),
-							value: 'back-arrow',
+							label: __( 'Back Arrow - Heavy', 'successtools/button-bar' ),
+							value: 'back-arrow-heavy',
 						},
 						{
-							label: __( 'Down Arrow', 'successtools/button-bar' ),
-							value: 'down-arrow',
+							label: __( 'Back Arrow - Light', 'successtools/button-bar' ),
+							value: 'back-arrow-light',
 						},
 						{
-							label: __( 'Dashboard', 'successtools/button-bar' ),
-							value: 'dashboard',
+							label: __( 'Calendar', 'successtools/button-bar' ),
+							value: 'calendar',
+						},
+						{
+							label: __( 'Dashboard - Heavy', 'successtools/button-bar' ),
+							value: 'dashboard-heavy',
+						},
+						{
+							label: __( 'Dashboard - Light', 'successtools/button-bar' ),
+							value: 'dashboard-light',
+						},
+						{
+							label: __( 'Down Arrow - Heavy', 'successtools/button-bar' ),
+							value: 'down-arrow-heavy',
+						},
+						{
+							label: __( 'Down Arrow - Light', 'successtools/button-bar' ),
+							value: 'down-arrow-light',
+						},
+						{
+							label: __( 'Drinks', 'successtools/button-bar' ),
+							value: 'drinks',
+						},
+						{
+							label: __( 'Food', 'successtools/button-bar' ),
+							value: 'food',
+						},
+						{
+							label: __( 'Music', 'successtools/button-bar' ),
+							value: 'music',
+						},
+						{
+							label: __( 'Text', 'successtools/button-bar' ),
+							value: 'text',
+						},
+						{
+							label: __( 'View', 'successtools/button-bar' ),
+							value: 'view',
 						},
 					]}
 					value={button.icon}
