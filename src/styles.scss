@@ -47,6 +47,10 @@
 		transform: scale(1.3);
 	}
 
+	i.bulletins {
+		mask: url(./images/noun_List_124119_FFFFFF.svg) no-repeat 50% 50%;
+	}
+
 	i.buttons {
 		mask: url(./images/noun_Button_2165259_FFFFFF.svg) no-repeat 50% 50%;
 	}
@@ -83,6 +87,11 @@
 
 	i.music {
 		mask: url(./images/noun_Music_2226149_FFFFFF.svg) no-repeat 50% 50%;
+	}
+
+	i.play-light {
+		mask: url(./images/noun_Video_1737180_FFFFFF.svg) no-repeat 50% 50%;
+		transform: scale(1.4);
 	}
 
 	i.text {

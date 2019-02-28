@@ -101,6 +101,11 @@ export class ButtonPanel extends Component {
 							label: __( 'Athletics', 'successtools/button-bar' ),
 							value: 'athletics',
 						},
+
+						{
+							label: __( 'Bulletins', 'successtools/button-bar' ),
+							value: 'bulletins',
+						},
 						{
 							label: __( 'Buttons', 'successtools/button-bar' ),
 							value: 'buttons',
@@ -144,6 +149,10 @@ export class ButtonPanel extends Component {
 						{
 							label: __( 'Music', 'successtools/button-bar' ),
 							value: 'music',
+						},
+						{
+							label: __( 'Play - Light', 'successtools/button-bar' ),
+							value: 'play-light',
 						},
 						{
 							label: __( 'Text', 'successtools/button-bar' ),
