@@ -224,7 +224,8 @@ registerBlockType(
 
 			const { attributes: { buttons, isFixed, rowHeight } } = props;
 
-			let styles = { height: rowHeight + 'px' };
+			let styles  = { height: rowHeight + 'px' };
+			let classes = ['success-tools-button-row'];
 
 			if ( isFixed ) {
 
@@ -234,13 +235,15 @@ registerBlockType(
 					top: 0,
 					width: '100%',
 				}
+
+				classes.push('success-tools-button-row-is-fixed');
 			}
 
 			let renderedButtons = renderButtons( buttons );
 
 			return (
 				<div
-					className={ classnames( 'success-tools-button-row' ) }
+					className={ classnames( classes ) }
 					style={styles}
 				>
 					{renderedButtons}
