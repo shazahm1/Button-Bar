@@ -123,12 +123,24 @@ export class ButtonPanel extends Component {
 							value: 'calendar',
 						},
 						{
+							label: __( 'Call', 'successtools/button-bar' ),
+							value: 'call',
+						},
+						{
 							label: __( 'Dashboard - Heavy', 'successtools/button-bar' ),
 							value: 'dashboard-heavy',
 						},
 						{
 							label: __( 'Dashboard - Light', 'successtools/button-bar' ),
 							value: 'dashboard-light',
+						},
+						{
+							label: __( 'Directory', 'successtools/button-bar' ),
+							value: 'directory',
+						},
+						{
+							label: __( 'Discussion', 'successtools/button-bar' ),
+							value: 'discussion',
 						},
 						{
 							label: __( 'Down Arrow - Heavy', 'successtools/button-bar' ),
@@ -143,8 +155,36 @@ export class ButtonPanel extends Component {
 							value: 'drinks',
 						},
 						{
+							label: __( 'Email', 'successtools/button-bar' ),
+							value: 'email',
+						},
+						{
 							label: __( 'Food', 'successtools/button-bar' ),
 							value: 'food',
+						},
+						{
+							label: __( 'Gallery', 'successtools/button-bar' ),
+							value: 'gallery',
+						},
+						{
+							label: __( 'Grow', 'successtools/button-bar' ),
+							value: 'grow',
+						},
+						{
+							label: __( 'Home', 'successtools/button-bar' ),
+							value: 'home',
+						},
+						{
+							label: __( 'Learn', 'successtools/button-bar' ),
+							value: 'learn',
+						},
+						{
+							label: __( 'Location', 'successtools/button-bar' ),
+							value: 'location',
+						},
+						{
+							label: __( 'More', 'successtools/button-bar' ),
+							value: 'more',
 						},
 						{
 							label: __( 'Music', 'successtools/button-bar' ),
@@ -153,6 +193,22 @@ export class ButtonPanel extends Component {
 						{
 							label: __( 'Play - Light', 'successtools/button-bar' ),
 							value: 'play-light',
+						},
+						{
+							label: __( 'Plan', 'successtools/button-bar' ),
+							value: 'plan',
+						},
+						{
+							label: __( 'Post', 'successtools/button-bar' ),
+							value: 'post',
+						},
+						{
+							label: __( 'Smile', 'successtools/button-bar' ),
+							value: 'smile',
+						},
+						{
+							label: __( 'Thrive Leaves', 'successtools/button-bar' ),
+							value: 'thrive-leaves',
 						},
 						{
 							label: __( 'Text', 'successtools/button-bar' ),

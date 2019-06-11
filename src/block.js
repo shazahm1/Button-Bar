@@ -234,7 +234,7 @@ registerBlockType(
 					position: 'sticky',
 					top: 0,
 					width: '100%',
-				}
+				};
 
 				classes.push('success-tools-button-row-is-fixed');
 			}

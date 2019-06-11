@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40">
+  <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 847 847">
+    <defs/>
+    <path d="M673 120h67v671H199v-65h22v44h497V142h-45z" class="fil0"/>
+    <path d="M132 55h541v671H132V55zm22 22h497v628H154V77z" class="fil0"/>
+    <path d="M403 394c69 0 125 55 127 124H276c1-69 57-124 127-124z" class="fil0"/>
+    <circle cx="403" cy="324" r="60" class="fil0"/>
+    <path d="M186.062 195.01v21.93h-79.343v-21.93zm0 116.046v21.93h-79.343v-21.93zm0 116.047v21.93h-79.343v-21.93zm0 116.047v21.93h-79.343v-21.93z" class="fil0"/>
+  </svg>
+</svg>
