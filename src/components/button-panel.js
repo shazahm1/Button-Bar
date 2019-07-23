@@ -203,6 +203,14 @@ export class ButtonPanel extends Component {
 							value: 'post',
 						},
 						{
+							label: __( 'Refresh', 'successtools/button-bar' ),
+							value: 'refresh',
+						},
+						{
+							label: __( 'Settings', 'successtools/button-bar' ),
+							value: 'settings',
+						},
+						{
 							label: __( 'Smile', 'successtools/button-bar' ),
 							value: 'smile',
 						},

@@ -146,6 +146,16 @@
 		mask: url(./images/noun_post_1535273.svg) no-repeat 50% 50%;
 	}
 
+	i.refresh {
+		mask: url(./images/noun_Refresh_2190207.svg) no-repeat 50% 50%;
+	}
+
+	i.settings {
+		mask: url(./images/noun_Settings_1891335.svg) no-repeat 50% 50%;
+		mask-size: contain;
+		transform: scale(1.5);
+	}
+
 	i.smile {
 		mask: url(./images/noun_good_552792.svg) no-repeat 50% 50%;
 	}
